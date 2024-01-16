@@ -3,7 +3,7 @@
 
 ## description
 > - test your knowledge here 😉
-- [PLAY NOW]((https://alireza64ahmadi.github.io/Quiz-app/))
+- [PLAY NOW](https://alireza64ahmadi.github.io/Quiz-app/)
 ## Contributor
 - Alireza Ahmadi
   - Email-address : **ahmadialireza316@gmail.com**
