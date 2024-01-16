@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question : "کدامیک بزرگترین ترین قاره دنیا است؟",
+        question : "کدامیک کوچکترین قاره دنیا است؟",
         answer:[
             { text : "آسیا" , correct : false  },
             { text : "استرالیا" , correct : true  },
