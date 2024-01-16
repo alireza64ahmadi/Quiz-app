@@ -1,38 +1,38 @@
 const questions = [
     {
-        question : "Which is the tallest tower in the world?",
+        question : "کدامیک بلند ترین برج دنیا است؟",
         answer:[
-            { text : "Milad Tower" , correct : false  },
-            { text : "Pizza Tower" , correct : false  },
-            { text : "Eiffel Tower" , correct : false  },
-            { text : "Khalifa Tower" , correct : true  }
+            { text : "برج میلاد" , correct : false  },
+            { text : "برج پیزا" , correct : false  },
+            { text : "برج ایفل" , correct : false  },
+            { text : "برج خلیفه" , correct : true  }
         ]
     },
     {
-        question : "Which is the smallest continent in the world?",
+        question : "کدامیک بزرگترین ترین قاره دنیا است؟",
         answer:[
-            { text : "Asia" , correct : false  },
-            { text : "Australia" , correct : true  },
-            { text : "Africa" , correct : false  },
-            { text : "North America" , correct : false  }
+            { text : "آسیا" , correct : false  },
+            { text : "استرالیا" , correct : true  },
+            { text : "آفریقا" , correct : false  },
+            { text : "اروپا" , correct : false  }
         ]
     },
     {
-        question : "Which is the laegest deseret in the world?",
+        question : "کدامیک بزرگترین ترین موجود دنیا است؟",
         answer:[
-            { text : "Kalahari" , correct : false  },
-            { text : "Gobi" , correct : false  },
-            { text : "Sahara" , correct : false  },
-            { text : "Antarctica" , correct : true  }
+            { text : "فیل" , correct : false  },
+            { text : "زرافه" , correct : false  },
+            { text : "کوسه سفید" , correct : false  },
+            { text : "وال" , correct : true  }
         ]
     },
     {
-        question : "Which is the smallest country in the world?",
+        question : "کدامیک کوچکتربن ترین کشور دنیا است؟",
         answer:[
-            { text : "Vatican City" , correct : true  },
-            { text : "Bhutan" , correct : false  },
-            { text : "Nepal" , correct : false  },
-            { text : "Sri Lanka" , correct : false  }
+            { text : "واتیکان" , correct : true  },
+            { text : "بوهوتان" , correct : false  },
+            { text : "نپال" , correct : false  },
+            { text : "سریلانکا" , correct : false  }
         ]
     },
 ]
@@ -50,7 +50,7 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex = 0
     score = 0
-    nextButton.innerHTML = "Next"
+    nextButton.innerHTML = "بعدی"
     showQuestion()
 }
 
@@ -106,8 +106,8 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`
-    nextButton.innerHTML = "Play Again"
+    questionElement.innerHTML = `امتیاز شما ${score} از ${questions.length} شده !`
+    nextButton.innerHTML = "دوباره"
     nextButton.style.display = "block"
 }
 
